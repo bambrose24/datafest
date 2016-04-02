@@ -1,0 +1,29 @@
+""   --  this is a unique integer
+"campaign_id" -- idk but as far as i can tell it never changes, probababily unique to ticketmaster
+"adgroup_id" -- idk but as far as i can tell it never changes, probababily unique to ticketmaster
+"ad_group"
+"campaign"
+"account"
+"week" - it seems like bids/keywords are done by the week
+"keyword" the query phrase that 
+"keyword.state" "enabled"
+"match.type" "phrase"
+"max_cpc" max cost per click
+"clicks" number of clicks for the given ad that week
+"impressions" number of views of that add
+"ctr" click to impression ratio; percentage of views that lead to clicks
+"avg_cpc" avg cost_per_click
+"avg_cpm" cost per thousand impressions (you could do this math yourself)
+"cost"
+"avg_position" -A statistic that describes how your ad typically ranks against other ads. This rank determines in which order ads appear on the page.
+"quality.score"
+"first.page.cpc"
+"first.position.cpc"
+"converted.clicks" clicks that led to a ticket purchase
+"click.conversion.rate"
+"cost.converted.click"
+"cost.all.conv."
+"total.conv.value" total money spent on purchases from this ad
+"conversions" number of clicks that led to purchases
+"cost.conv."
+"conv.rate"
