@@ -1,29 +1,29 @@
-""   --  this is a unique integer
-"campaign_id" -- idk but as far as i can tell it never changes, probababily unique to ticketmaster
-"adgroup_id" -- idk but as far as i can tell it never changes, probababily unique to ticketmaster
-"ad_group"
-"campaign"
-"account"
-"week" - it seems like bids/keywords are done by the week
-"keyword" the query phrase that 
-"keyword.state" "enabled"
-"match.type" "phrase"
-"max_cpc" max cost per click
-"clicks" number of clicks for the given ad that week
-"impressions" number of views of that add
-"ctr" click to impression ratio; percentage of views that lead to clicks
-"avg_cpc" avg cost_per_click
-"avg_cpm" cost per thousand impressions (you could do this math yourself)
-"cost"
-"avg_position" -A statistic that describes how your ad typically ranks against other ads. This rank determines in which order ads appear on the page.
-"quality.score"
-"first.page.cpc"
-"first.position.cpc"
-"converted.clicks" clicks that led to a ticket purchase
-"click.conversion.rate"
-"cost.converted.click"
-"cost.all.conv."
-"total.conv.value" total money spent on purchases from this ad
-"conversions" number of clicks that led to purchases
-"cost.conv."
-"conv.rate"
+0""   --  this is a unique integer
+1"campaign_id" -- 
+2"adgroup_id" -- 
+3"ad_group"
+4"campaign"
+5"account"
+6"week" - it seems like bids/keywords are done by the week
+7"keyword" the query phrase that 
+8"keyword.state" "enabled"
+9"match.type" "phrase"
+10"max_cpc" max cost per click
+11"clicks" number of clicks for the given ad that week
+12"impressions" number of views of that add
+13"ctr" click to impression ratio; percentage of views that lead to clicks
+14"avg_cpc" avg cost_per_click
+15"avg_cpm" cost per thousand impressions (you could do this math yourself)
+16"cost"
+17"avg_position" -A statistic that describes how your ad typically ranks against other ads. This rank determines in which order ads appear on the page.
+18"quality.score"
+19"first.page.cpc"
+20"first.position.cpc"
+21"converted.clicks" clicks that led to a ticket purchase
+22 "click.conversion.rate"
+23 "cost.converted.click"
+24 "cost.all.conv."
+25 "total.conv.value" total money spent on purchases from this ad
+26 "conversions" number of clicks that led to purchases
+27 "cost.conv."
+28 "conv.rate"
